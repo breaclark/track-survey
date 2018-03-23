@@ -7,34 +7,42 @@
 }
 
 #q-card1{
+  background-color: #132433;
   z-index: 8;
 }
 
 #q-card2{
+  background-color: #1E374C;
   z-index: 7;
 }
 
 #q-card3{
+  background-color: #294A66;
   z-index: 6;
 }
 
 #q-card4{
+  background-color: #355C7D;
   z-index: 5;
 }
 
 #q-card5{
+  background-color: #6C5B7B;
   z-index: 4;
 }
 
 #q-card6{
+  background-color: #C06C84;
   z-index: 3;
 }
 
 #q-card7{
+  background-color: #F67280;
   z-index: 2;
 }
 
 #q-card8{
+  background-color: #F8B195;
   z-index: 1;
 }
 
