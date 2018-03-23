@@ -118,3 +118,23 @@ img {
   width: 186px;
   border-radius: 186px;
 }
+
+@media screen and (min-width: 545px) and (max-width: 767px) {
+  svg {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  svg {
+    margin: -17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  svg {
+    width: 154px;
+  }
+}

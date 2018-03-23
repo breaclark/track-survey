@@ -6,10 +6,14 @@ $(document).ready(function(){
       $("#q-card7").children().slideDown(800);
     }
   });
+
   $("#q-card8").children().show();
+
   $(".card-header").click(function(){
     $(this).parent().children(".quest").slideToggle(800);
+    console.log(this.id);
   });
+
   $("#track").submit(function(event){
     event.preventDefault();
     //get all the variables set based on input
