@@ -3,6 +3,7 @@ body {
 }
 
 #top-header {
+  margin-top: 28px;
   background-color: #14212D;
   color: white;
 }

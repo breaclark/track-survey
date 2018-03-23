@@ -1,7 +1,11 @@
 $(document).ready(function(){
   $(document).focusin(function(){
+    console.log(document.activeElement.id);
     $("#q-card7").children().slideDown(800);
   });
+  // document.addEventListener(':invalid', function() {
+  //   $("#q-card7").children().slideDown(800);
+  // })
   $("#q-card8").children().show();
   $(".card-header").click(function(){
     $(this).parent().children(".quest").slideToggle(800);
