@@ -1,5 +1,5 @@
 body {
-  background-color: #FEF5E7;
+  background-image: url(../img/grid.jpg);
 }
 
 .card {
@@ -82,6 +82,7 @@ body {
 }
 
 #epi-img {
+  border-radius: 3px;
   width: 100%;
 }
 
