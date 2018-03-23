@@ -8,9 +8,24 @@ $(document).ready(function(){
     var q5 = $("#apps").val();
     var q6 = parseInt($("#experience").val());
     var q7 = parseInt($("#problem").val());
-    console.log(q1,q2,q3,q4,q5,q6,q7);
     //count up the A's, B's, and C's
-
+    var aTotal = 0;
+    var bTotal = 0;
+    var cTotal = 0;
+    letterQs = [q1,q2,q3,q4];
+    for (i=0; i<letterQs.length; i++){
+      switch (letterQs[i]) {
+        case "a":
+          aTotal += 1;
+          break;
+        case "b":
+          bTotal += 1;
+          break;
+        case "c":
+          cTotal += 1;
+          break;
+      }
+    }
     //translate the one about apps
 
     //If the last two are low, suggest they try that out and come back
