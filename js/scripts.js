@@ -11,7 +11,30 @@ $(document).ready(function(){
 
   $(".card-header").click(function(){
     $(this).parent().children(".quest").slideToggle(800);
-    console.log(this.id);
+    var q_num = this.id;
+    switch (q_num){
+      case "one":
+        $("#q1").css("fill","#14212D")
+        break;
+      case "two":
+        $("#q2").css("fill","#14212D")
+        break;
+      case "three":
+        $("#q3").css("fill","#14212D")
+        break;
+      case "four":
+        $("#q4").css("fill","#14212D")
+        break;
+      case "five":
+        $("#q5").css("fill","#14212D")
+        break;
+      case "six":
+        $("#q6").css("fill","#14212D")
+        break;
+      case "seven":
+        $("#q7").css("fill","#14212D")
+        break;
+    }
   });
 
   $("#track").submit(function(event){
