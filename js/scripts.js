@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(document).focusin(function(){
-    console.log("got here");
+    $("#q-card7").children().slideDown(800);
   });
   $("#q-card8").children().show();
   $(".card-header").click(function(){
