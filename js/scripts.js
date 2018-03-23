@@ -70,4 +70,7 @@ $(document).ready(function(){
     $(resultImg).show();
     $("#result-div").modal('show');
   });
+  $("#close-btn").click(function() {
+    location.reload();
+  });
 });
