@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(document).focusin(function(){
     var focusid = document.activeElement.id;
+    console.log(focusid);
     if (focusid === "") {
       $("#q-card7").children().slideDown(800);
     }
@@ -69,6 +70,7 @@ $(document).ready(function(){
     $("#result").text(result);
     $(resultImg).show();
     $("#result-div").modal('show');
+    $(".quest").hide();
   });
   $("#close-btn").click(function() {
     location.reload();
