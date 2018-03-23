@@ -37,8 +37,8 @@ $(document).ready(function(){
     }
     //Result sorting out
     var result;
-    if (q6 === 1 || q7 === 1){
-      result = "You should try out some coding and see if you like it! Then come back and retake this survey."
+    if ((q6 === 1) || (q6 < 3 && q7 === 1)){
+      result = "You should try out some more coding and see if you like it! Then come back and retake this survey."
     }
     else if (aTotal >= 3){
       result = "You might like to study CSS and React! Epicodus has a track for that!"
@@ -52,8 +52,7 @@ $(document).ready(function(){
     else {
       result = "Various tracks could be a good fit for you, why dont you check them all out below, and see which one you like best!"
     }
-    
-
-    //Put out the result
+    $("#result").text(result);
+    $(".jumbotron").show();
   });
 });
