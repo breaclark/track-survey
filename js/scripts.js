@@ -65,6 +65,6 @@ $(document).ready(function(){
     $("#more-coding").hide();
     $("#result").text(result);
     $(resultImg).show();
-    $(".jumbotron").show();
+    $("#result-div").show();
   });
 });

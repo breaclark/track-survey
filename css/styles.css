@@ -2,6 +2,11 @@ body {
   background-image: url(../img/grid.jpg);
 }
 
+#top-header {
+  background-color: #14212D;
+  color: white;
+}
+
 .card {
   box-shadow: 0px 2px 10px -10px black;
 }
@@ -69,12 +74,16 @@ body {
   z-index: 1;
 }
 
-.jumbotron {
+#result-div {
   display: none;
 }
 
 #epicodus-classes {
   display: none;
+}
+
+img {
+  margin-top: 20px;
 }
 
 #more-coding {
