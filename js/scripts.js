@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $(document).focusin(function(){
+    console.log("got here");
+  });
   $("#q-card8").children().show();
   $(".card-header").click(function(){
     $(this).parent().children(".quest").slideToggle(800);

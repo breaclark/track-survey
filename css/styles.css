@@ -1,3 +1,7 @@
+body {
+  background-color: #FEF5E7;
+}
+
 .card {
   box-shadow: 0px 2px 10px -10px black;
 }
