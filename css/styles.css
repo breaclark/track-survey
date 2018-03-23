@@ -2,47 +2,47 @@
   box-shadow: 0px 2px 10px -10px black;
 }
 
-.card-body {
+.quest {
   display: none;
 }
 
 #q-card1{
-  background-color: #132433;
+  background-color: #212F3C;
   z-index: 8;
 }
 
 #q-card2{
-  background-color: #1E374C;
+  background-color: #283747;
   z-index: 7;
 }
 
 #q-card3{
-  background-color: #294A66;
+  background-color: #2E4053;
   z-index: 6;
 }
 
 #q-card4{
-  background-color: #345B7C;
+  background-color: #34495E;
   z-index: 5;
 }
 
 #q-card5{
-  background-color: #3D698E;
+  background-color: #5D6D7E;
   z-index: 4;
 }
 
 #q-card6{
-  background-color: #4576A0;
+  background-color: #85929E;
   z-index: 3;
 }
 
 #q-card7{
-  background-color: #4C80AD;
+  background-color: #AEB6BF;
   z-index: 2;
 }
 
 #q-card8{
-  background-color: #7295B5;
+  background-color: #D6DBDF;
   z-index: 1;
 }
 
