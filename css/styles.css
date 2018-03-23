@@ -13,6 +13,11 @@ body {
 
 .card-header {
   border: none;
+  font-size: 30px;
+}
+
+.card-body {
+  font-size: 18px;
 }
 
 .quest {
@@ -72,6 +77,10 @@ body {
 #q-card8 {
   background-color: #BDC0C9;
   z-index: 1;
+}
+
+.btn {
+  font-size: 30px;
 }
 
 #result-div {
