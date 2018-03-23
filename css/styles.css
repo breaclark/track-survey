@@ -1,5 +1,5 @@
 .card {
-  box-shadow: 0px 1px 10px black;
+  box-shadow: 0px 2px 10px -10px black;
 }
 
 .card-body {
@@ -22,27 +22,27 @@
 }
 
 #q-card4{
-  background-color: #355C7D;
+  background-color: #345B7C;
   z-index: 5;
 }
 
 #q-card5{
-  background-color: #6C5B7B;
+  background-color: #3D698E;
   z-index: 4;
 }
 
 #q-card6{
-  background-color: #C06C84;
+  background-color: #4576A0;
   z-index: 3;
 }
 
 #q-card7{
-  background-color: #F67280;
+  background-color: #4C80AD;
   z-index: 2;
 }
 
 #q-card8{
-  background-color: #F8B195;
+  background-color: #7295B5;
   z-index: 1;
 }
 
