@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  // $('#myModal').modal('show');
   $(document).focusin(function(){
     var focusid = document.activeElement.id;
     if (focusid === "") {
