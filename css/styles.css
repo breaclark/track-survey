@@ -10,42 +10,57 @@
   display: none;
 }
 
-#q-card1{
+#q-card1 {
   background-color: #212F3C;
   z-index: 8;
 }
 
-#q-card2{
+#q-card2 {
   background-color: #283747;
   z-index: 7;
 }
 
-#q-card3{
+#q-card3 {
   background-color: #2E4053;
   z-index: 6;
 }
 
-#q-card4{
+#q-card4 {
   background-color: #34495E;
   z-index: 5;
 }
 
-#q-card5{
+#q-card5 {
   background-color: #5D6D7E;
   z-index: 4;
 }
 
-#q-card6{
+#q-card5 select, option {
+  background-color: #5D6D7E;
+  color: white;
+}
+
+#q-card6 {
   background-color: #85929E;
   z-index: 3;
 }
 
-#q-card7{
+#q-card6 select, option {
+  background-color: #85929E;
+  color: white;
+}
+
+#q-card7 {
   background-color: #AEB6BF;
   z-index: 2;
 }
 
-#q-card8{
+#q-card7 input{
+  background-color: #AEB6BF;
+  color: white;
+}
+
+#q-card8 {
   background-color: #BDC0C9;
   z-index: 1;
 }
