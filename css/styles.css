@@ -88,15 +88,11 @@ body {
   border: none;
 }
 
-#epicodus-classes {
-  display: none;
-}
-
 img {
   margin-top: 20px;
 }
 
-#more-coding {
+#epicodus-classes {
   display: none;
 }
 
@@ -105,7 +101,11 @@ img {
   width: 100%;
 }
 
+#more-coding {
+  display: none;
+}
+
 .logos {
-  width: 200px;
-  border-radius: 200px;
+  width: 186px;
+  border-radius: 186px;
 }
