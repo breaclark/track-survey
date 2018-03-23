@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $("#q-card8").children().show();
   $("#track").submit(function(event){
     event.preventDefault();
     //get all the variables set based on input
