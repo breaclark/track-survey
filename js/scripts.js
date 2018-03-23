@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#q-card8").children().show();
-  $(".card").click(function(){
-    $(this).children(".quest").slideToggle(800);
+  $(".card-header").click(function(){
+    $(this).parent().children(".quest").slideToggle(800);
   });
   $("#track").submit(function(event){
     event.preventDefault();
