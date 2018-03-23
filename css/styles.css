@@ -1,3 +1,31 @@
+.card {
+  box-shadow: 0px 2px 6px black;
+}
+#q-card1{
+  z-index: 8;
+}
+#q-card2{
+  z-index: 7;
+}
+#q-card3{
+  z-index: 6;
+}
+#q-card4{
+  z-index: 5;
+}
+#q-card5{
+  z-index: 4;
+}
+#q-card6{
+  z-index: 3;
+}
+#q-card7{
+  z-index: 2;
+}
+#q-card8{
+  z-index: 1;
+}
+
 .jumbotron {
   display: none;
 }
