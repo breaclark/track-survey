@@ -43,13 +43,13 @@ $(document).ready(function(){
       resultImg = "#more-coding";
     }
     else if (aTotal >= 3){
-      result = "You might like to study CSS and React! Epicodus has a track for that!"
+      result = "You might like to study CSS and React! Epicodus has a track for that, click below!"
     }
     else if (bTotal >= 3){
-      result = "You might like to study Java and Android! Epicodus has a track for that!"
+      result = "You might like to study Java and Android! Epicodus has a track for that, click below!"
     }
     else if (cTotal >= 3){
-      result = "You might like to study Ruby on Rails! Epicodus has a track for that!"
+      result = "You might like to study Ruby on Rails! Epicodus has a track for that, click below!"
     }
     else {
       result = "Various tracks could be a good fit for you, why dont you check them all out below, and see which one you like best!"
