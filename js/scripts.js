@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  $('#myModal').modal('show');
   $(document).focusin(function(){
     var focusid = document.activeElement.id;
     if (focusid === "") {
@@ -69,6 +68,6 @@ $(document).ready(function(){
     $("#more-coding").hide();
     $("#result").text(result);
     $(resultImg).show();
-    $("#result-div").show();
+    $("#result-div").modal('show');
   });
 });
