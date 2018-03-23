@@ -10,100 +10,101 @@
   <body>
     <div class="container">
       <h1>What Epicodus track is right for you?</h1>
-      <div class="form-group">
-        Which of these are you most interested in?
-        <div class="radio">
-          <label>a)
-            <input type="radio" name="interest" value="a" checked> User interfaces (how a person interacts with a webpage)
-          </label>
+      <form id="track">
+        <div class="form-group">
+          Which of these are you most interested in?
+          <div class="radio">
+            <label>a)
+              <input type="radio" name="interest" value="a" checked> User interfaces (how a person interacts with a webpage)
+            </label>
+          </div>
+          <div class="radio">
+            <label>b)
+              <input type="radio" name="interest" value="b"> Algorithms and what's under the surface of a webpage or app
+            </label>
+          </div>
+          <div class="radio">
+            <label>c)
+              <input type="radio" name="interest" value="c"> A little bit of both
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>b)
-            <input type="radio" name="interest" value="b"> Algorithms and what's under the surface of a webpage or app
-          </label>
+        <div class="form-group">
+          What sort of coding community are you looking for?
+          <div class="radio">
+            <label>a)
+              <input type="radio" name="community" value="a" checked> A community made up of people from hot companies like netflix and instagram
+            </label>
+          </div>
+          <div class="radio">
+            <label>b)
+              <input type="radio" name="community" value="b"> One backed by google
+            </label>
+          </div>
+          <div class="radio">
+            <label>c)
+              <input type="radio" name="community" value="c"> Well established, with good documentation
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>c)
-            <input type="radio" name="interest" value="c"> A little bit of both
-          </label>
+        <div class="form-group">
+          What would you like to do after you learn this some coding?
+          <div class="radio">
+            <label>a)
+              <input type="radio" name="after" value="a" checked> Work for a company that's big right now like Facebook or Airbnb
+            </label>
+          </div>
+          <div class="radio">
+            <label>b)
+              <input type="radio" name="after" value="b"> Make my own android apps to sell on the app store
+            </label>
+          </div>
+          <div class="radio">
+            <label>c)
+              <input type="radio" name="after" value="c"> Work at a company like Hulu, Soundcloud, or Groupon
+            </label>
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        What sort of coding community are you looking for?
-        <div class="radio">
-          <label>a)
-            <input type="radio" name="community" value="a" checked> A community made up of people from hot companies like netflix and instagram
-          </label>
+        <div class="form-group">
+          How old would you like the language you learn to be?
+          <div class="radio">
+            <label>a)
+              <input type="radio" name="language-age" value="a" checked> Less than 10 years old
+            </label>
+          </div>
+          <div class="radio">
+            <label>b)
+              <input type="radio" name="language-age" value="b"> More than 20 years old
+            </label>
+          </div>
+          <div class="radio">
+            <label>c)
+              <input type="radio" name="language-age" value="c"> More than 10 years old
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>b)
-            <input type="radio" name="community" value="b"> One backed by google
-          </label>
+        <div class="form-group">
+          Do you want to make apps?
+          <select class="form-control">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
         </div>
-        <div class="radio">
-          <label>c)
-            <input type="radio" name="community" value="c"> Well established, with good documentation
-          </label>
+        <div class="form-group">
+          How much experience do you have coding?
+          <select class="form-control">
+            <option value="1">I've never coded</option>
+            <option value="2">I've done a course online (maybe through udemy or codeacademy)</option>
+            <option value="3">I've done a month or more of structured study (maybe through a community college or a short bootcamp)</option>
+            <option value="4">More experience than the above options</option>
+          </select>
         </div>
-      </div>
-      <div class="form-group">
-        Do you want to make apps?
-        <select class="form-control">
-          <option value="true">Yes</option>
-          <option value="false">No</option>
-        </select>
-      </div>
-      <div class="form-group">
-        How much experience do you have coding?
-        <select class="form-control">
-          <option value="1">I've never coded</option>
-          <option value="2">I've done a course online (maybe through udemy or codeacademy)</option>
-          <option value="3">I've done a month or more of structured study (maybe through a community college or a short bootcamp)</option>
-          <option value="4">More experience than the above options</option>
-        </select>
-      </div>
-      <div class="form-group">
-        How old would you like the language you learn to be?
-        <div class="radio">
-          <label>a)
-            <input type="radio" name="language-age" value="a" checked> Less than 10 years old
-          </label>
+        <div class="form-group">
+          On a scale of one (1) to five (5), how much do you enjoy problem solving?
+          <input type="number" required>
         </div>
-        <div class="radio">
-          <label>b)
-            <input type="radio" name="language-age" value="b"> More than 20 years old
-          </label>
-        </div>
-        <div class="radio">
-          <label>c)
-            <input type="radio" name="language-age" value="c"> More than 10 years old
-          </label>
-        </div>
-      </div>
-      <div class="form-group">
-        What would you like to do after you learn this some coding?
-        <div class="radio">
-          <label>a)
-            <input type="radio" name="after" value="a" checked> Work for a company that's big right now like Facebook or Airbnb
-          </label>
-        </div>
-        <div class="radio">
-          <label>b)
-            <input type="radio" name="after" value="b"> Make my own android apps to sell on the app store
-          </label>
-        </div>
-        <div class="radio">
-          <label>c)
-            <input type="radio" name="after" value="c"> Work at a company like Hulu, Soundcloud, or Groupon
-          </label>
-        </div>
-      </div>
-      <div class="form-group">
-        On a scale of one (1) to five(5), how much do you enjoy problem solving?
-        <label></label>
-        <input type="number" required>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit my Answers!</button>
+        <button type="submit" class="btn btn-primary">Submit my Answers!</button>
+      </form>
     </div>
   </body>
 </html>
