@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $("#q-card8").children().show();
+  $(".card").click(function(){
+    $(this).children(".card-body").slideToggle();
+  });
   $("#track").submit(function(event){
     event.preventDefault();
     //get all the variables set based on input
