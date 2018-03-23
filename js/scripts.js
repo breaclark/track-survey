@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(document).focusin(function(){
     var focusid = document.activeElement.id;
-    if (focusid === "problem") {
+    if (focusid === "") {
       $("#q-card7").children().slideDown(800);
     }
   });
