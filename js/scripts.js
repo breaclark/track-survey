@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#track").submit(function(event){
     event.preventDefault();
+    //get all the variables set based on input
     var q1 = $("input:radio[name=interest]:checked").val();
     var q2 = $("input:radio[name=community]:checked").val();
     var q3 = $("input:radio[name=after]:checked").val();
@@ -26,9 +27,16 @@ $(document).ready(function(){
           break;
       }
     }
-    //translate the one about apps
-
+    //translate the one about apps, add answer to aTotal,bTotal,cTotal
+    if (q5 === "yes") {
+      aTotal += 1;
+      bTotal += 1;
+    }
+    else {
+      cTotal += 1;
+    }
     //If the last two are low, suggest they try that out and come back
+    
 
     //If there's no real sway, give them info for all the tracks, tell them to check it out themselves
   });
