@@ -1,3 +1,16 @@
 .jumbotron {
   display: none;
 }
+
+#epicodus-classes {
+  display: none;
+}
+
+#more-coding {
+  display: none;
+}
+
+.logos {
+  width: 200px;
+  border-radius: 200px;
+}

@@ -37,8 +37,10 @@ $(document).ready(function(){
     }
     //Result sorting out
     var result;
+    var resultImg = "#epicodus-classes";
     if ((q6 === 1) || (q6 < 3 && q7 === 1)){
-      result = "You should try out some more coding and see if you like it! Then come back and retake this survey."
+      result = "You should try out some more coding and see if you like it! Check out the resources below, then come back and retake this survey."
+      resultImg = "#more-coding";
     }
     else if (aTotal >= 3){
       result = "You might like to study CSS and React! Epicodus has a track for that!"
@@ -52,7 +54,10 @@ $(document).ready(function(){
     else {
       result = "Various tracks could be a good fit for you, why dont you check them all out below, and see which one you like best!"
     }
+    $("#epicodus-classes").hide();
+    $("#more-coding").hide();
     $("#result").text(result);
+    $(resultImg).show();
     $(".jumbotron").show();
   });
 });
