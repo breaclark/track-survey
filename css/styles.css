@@ -124,6 +124,18 @@ img {
   border-radius: 186px;
 }
 
+.navbar a {
+  color: white;
+}
+
+.bg-light{
+  background-color: rgba(20,33,45, 0.3) !important;
+}
+
+.nav-logos {
+  width: 30px;
+}
+
 @media screen and (min-width: 545px) and (max-width: 767px) {
   svg {
     margin-left: -30px;
