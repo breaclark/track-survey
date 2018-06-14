@@ -2,7 +2,7 @@
 
 #### An Epicodus independent project - A survey using forms, Javascript, and Jquery March 23, 2018
 
-#### By Brea Borlas
+#### By Brea Clark
 
 ## Description
 
@@ -31,4 +31,4 @@ Contact me at breatortilla@gmail.com
 
 ### License
 
-Copyright (c) 2018 **Brea Borlas**
+Copyright (c) 2018 **Brea Clark**
